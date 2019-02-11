@@ -7,7 +7,6 @@ Django==2.1.5
 django-filter==2.0.0
 django-model-utils==3.1.2
 django-rest-swagger==2.2.0
-djangocms-installer==1.0.2
 djangorestframework==3.9.1
 drf-nested-routers==0.91
 idna==2.8
