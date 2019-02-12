@@ -1,104 +1,40 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
+### Django ###
 *.pot
+static/
+media/
+# 로컬 환경 설정 저장 파일
+study/settings/properties.json
 
-# Django stuff:
-*.log
-local_settings.py
+
+### Database(SQLite3) ###
 db.sqlite3
 
-# Flask stuff:
-instance/
-.webassets-cache
+### npm installed packages ###
+node_modules
 
-# Scrapy stuff:
-.scrapy
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
 
-# Sphinx documentation
-docs/_build/
 
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
+### Virtual or Custom Env ###
 venv/
-ENV/
-env.bak/
-venv.bak/
+my_env/
 
-# Spyder project settings
-.spyderproject
-.spyproject
 
-# Rope project settings
-.ropeproject
+### Git files ###
+.git/
 
-# mkdocs documentation
-/site
 
-# mypy
-.mypy_cache/
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/
+
+
+### etc ###
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
