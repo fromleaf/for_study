@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {# Snip the home page, contact and etc #}
+    {% for flavor in view.flavors %}
+        <url>
+            <loc>{{ site.domain }}/api/v1/flavors/#{{ flavor.slug }}</loc>
+            <lastmod>{{ flavor.modified }}</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    {% endfor %}
+</urlset>

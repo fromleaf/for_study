@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+# Apps URLs
+urlpatterns = [
+    path(r'flavors/', include('flavors.urls', namespace='flavors')),
+]
 
 # REST API URLs
-urlpatterns = [
+urlpatterns += [
     path(r'api/v1/flavors/', include('flavors.api.routers')),
 ]
 

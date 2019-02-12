@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}Study Base{% endblock title %}
+    </title>
+
+    {% block custom_css %}
+    {% endblock custom_css %}
+</head>
+
+<body>
+
+<div role="main" class="main">
+    {% block content %}
+    {% endblock content %}
+</div>
+
+
+{% block javascript %}
+    <script type="text/javascript">
+
+    </script>
+{% endblock javascript %}
+
+</body>
+</html>
