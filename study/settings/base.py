@@ -38,13 +38,14 @@ THIRD_PARTY_APPS = [
     'rest_framework_swagger',
 ]
 
-HOMEWORK_APPS = [
+STUDY_APPS = [
+    'flavors',
 ]
 
 INSTALLED_APPS = (
     PREREQUISITE_APPS
     + THIRD_PARTY_APPS
-    + HOMEWORK_APPS
+    + STUDY_APPS
 )
 
 
