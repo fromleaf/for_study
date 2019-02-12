@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from __future__ import absolute_import
 
-# Create your views here.
+from django.views.generic import TemplateView
+
+
+class ShoppingCartView(TemplateView):
+    template_name = 'flavors/shopping_cart.html'
